@@ -1,7 +1,7 @@
 const menu = [
     {
         id: 1,
-        title: 'buttermilk pancakes',
+        title: 'Buttermilk pancakes',
         category: 'breakfast',
         price: 15.99,
         img: './item-1.jpeg',
@@ -9,7 +9,7 @@ const menu = [
     },
     {
         id: 2,
-        title: 'diner double',
+        title: 'Diner double',
         category: 'lunch',
         price: 13.99,
         img: './item-2.jpeg',
@@ -17,7 +17,7 @@ const menu = [
     },
     {
         id: 3,
-        title: 'godzilla milkshake',
+        title: 'Godzilla milkshake',
         category: 'shakes',
         price: 6.99,
         img: './item-3.jpeg',
@@ -25,7 +25,7 @@ const menu = [
     },
     {
         id: 4,
-        title: 'country delight',
+        title: 'Country delight',
         category: 'breakfast',
         price: 20.99,
         img: './item-4.jpeg',
@@ -33,15 +33,15 @@ const menu = [
     },
     {
         id: 5,
-        title: 'egg attack',
+        title: 'Egg attack',
         category: 'lunch',
         price: 22.99,
         img: './item-5.jpeg',
-        desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+        desc: `Franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
         id: 6,
-        title: 'oreo dream',
+        title: 'Oreo dream',
         category: 'shakes',
         price: 18.99,
         img: './item-6.jpeg',
@@ -49,27 +49,27 @@ const menu = [
     },
     {
         id: 7,
-        title: 'bacon overflow',
+        title: 'Bacon overflow',
         category: 'breakfast',
         price: 8.99,
         img: './item-7.jpeg',
-        desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+        desc: `Carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     {
         id: 8,
-        title: 'american classic',
+        title: 'American classic',
         category: 'lunch',
         price: 12.99,
         img: './item-8.jpeg',
-        desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+        desc: `On it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     {
         id: 9,
-        title: 'quarantine buddy',
+        title: 'Quarantine buddy',
         category: 'shakes',
         price: 16.99,
         img: './item-9.jpeg',
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
 ];
 export default menu;

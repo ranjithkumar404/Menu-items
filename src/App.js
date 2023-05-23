@@ -2,28 +2,24 @@ import React, { useState } from "react";
 import item from './data';
 import Category from "./Category";
 import Menu from "./Menu";
+
 function App() {
-  const [mitem,setMitem]=useState(item);
+  const [mitem, setMitem] = useState(item);
+
+  const myCat=(cat)=>{
+   let newItem= item.filter((a)=>
+          a.category === cat)
+          setMitem(newItem)
+    
+  }
   return (
     <div className="App">
-        <div>
-          <h1>Menu</h1>
-          <div>
-          {
-            mitem.map((i)=>{
-              const {id,desc,title,img,price,category}=i;
-              return (
-               <div key={id}>
-                <img className="w-[100px]" src={img} alt="" />
-                <p>{title}</p>
-                <p>${price}</p>
-                <p>{desc}</p>
-               </div>
-              )
-            })
-          }
-          </div>
-        </div>
+      <div>
+        <h1 className="text-5xl text-center">Menu</h1>
+        <Category myCat={myCat} />
+        <Menu mitem={mitem}/>
+       
+      </div>
     </div>
   );
 }
