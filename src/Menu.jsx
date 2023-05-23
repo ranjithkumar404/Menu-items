@@ -8,16 +8,16 @@ const Menu = ({mitem}) => {
                   mitem.map((i) => {
                       const { id, desc, title, img, price, category } = i;
                       return (
-                          <div className="flex  w-[700px] h-[300px]   gap-3 p-5 bg-yellow-200" key={id}>
+                          <div className="flex  w-[700px] h-[300px]   gap-3 p-5 " key={id}>
                               <img className="w-[300px] rounded-md" sizes="" src={img} alt="" />
                               <div className=" space-y-4">
                                   <p className="text-2xl flex justify-between ">
                                       <p className="">{title}</p>
-                                      <p>${price}</p>
+                                      <p className='text-yellow-400'>${price}</p>
                                       <p></p>
                                   </p>
 
-                                  <p>{desc}</p>
+                                  <p className='text-lg'>{desc}</p>
                               </div>
                           </div>
                       )

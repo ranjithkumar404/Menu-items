@@ -14,8 +14,11 @@ function App() {
   }
   return (
     <div className="App">
-      <div>
-        <h1 className="text-5xl text-center">Menu</h1>
+      <div className=" space-y-5">
+        <div className=" grid place-items-center">
+          <h1 className="text-5xl text-center">Menu</h1>
+          <div className="w-[100px] h-[3px] "></div>
+        </div>
         <Category myCat={myCat} />
         <Menu mitem={mitem}/>
        
