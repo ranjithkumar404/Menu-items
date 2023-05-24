@@ -12,12 +12,12 @@ const Menu = ({ mitem }) => {
                                 <img className="w-[300px] rounded-md" sizes="" src={img} alt="" />
                                 <div className=" space-y-4">
                                     <p className="text-2xl flex justify-between ">
-                                        <p className="">{title}</p>
-                                        <p className='text-yellow-400'>${price}</p>
+                                        <p className="font-bold text-3xl">{title}</p>
+                                        <p className='text-green-400 font-semibold'>${price}</p>
                                         <p></p>
                                     </p>
-
-                                    <p className='text-lg'>{desc}</p>
+                                       <div className='w-[300px] bg-slate-400 h-[1px]'></div>
+                                    <p className='text-xl'>{desc}</p>
                                 </div>
                             </div>
                         )
