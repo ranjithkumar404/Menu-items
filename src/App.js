@@ -13,11 +13,11 @@ function App() {
     
   }
   return (
-    <div className="App">
+    <div className="App flex items-center justify-center">
       <div className=" space-y-5">
-        <div className=" grid place-items-center">
+        <div className=" grid gap-2 place-items-center">
           <h1 className="text-5xl text-center">Menu</h1>
-          <div className="w-[100px] h-[3px] "></div>
+          <div className="w-[100px] bg-yellow-400 rounded-md h-[3px] "></div>
         </div>
         <Category myCat={myCat} />
         <Menu mitem={mitem}/>
